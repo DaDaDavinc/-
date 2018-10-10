@@ -288,7 +288,7 @@ if (weak_pt != nullptr)
 ```
 * 智能指针的实现
 ```C++
-template <typedef T>
+template <typename T>
 class SmartPointer {
     T* _ptr;
     size_t _reference_count;  //new申请size_t类型大小的内存
